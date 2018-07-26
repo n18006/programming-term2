@@ -10,11 +10,6 @@ paper = 'CPUがパーを出しました。あなたの負けです。'
 error ='入力が不正です。終了します。'
 
 # 判定
-if hand == 1: #userが1:グーを出した時の判定
-    print(paper)
-elif hand == 2: #userが2:チョキを出した時の判定
-    print(rock)
-elif hand == 3: #userが3:パーを出した時の時の判定
-    print(scissors)
-else: #userが1,2,3以外の数値を出した時の判定
-    print(error)
+if hand in 1:
+    if hand in 2:
+        if hand in 3:

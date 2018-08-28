@@ -1,0 +1,7 @@
+tanaka,72
+yamada,65
+hirata,100
+akai,56
+fukuda,66
+sakai,80
+
